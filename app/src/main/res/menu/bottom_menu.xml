@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorites"
+        android:enabled="true"
+        android:icon="@drawable/ic_pet_house"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_schedules"
+        android:enabled="true"
+        android:icon="@drawable/ic_first_aid_kit"
+        android:title="Hospital"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/aa"
+        android:enabled="false"
+        android:title=""
+ />
+    <item
+        android:id="@+id/bb"
+        android:enabled="true"
+        android:icon="@drawable/ic_assignment_ind_black_24dp"
+        android:title="Profile"
+       />
+    <item
+        android:id="@+id/cc"
+        android:enabled="true"
+        android:icon="@drawable/ic_nut_icon"
+        android:title="Settings"
+       />
+
+</menu>
